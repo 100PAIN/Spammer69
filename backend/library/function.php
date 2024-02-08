@@ -12,7 +12,7 @@ function emoje($emoje) //in tabe spam mide emoji
     return $blank;
 }
 
-function spamer69($Number_spam, $text_spam, $emoji_left) //in tabe 2 vorodi migire va spam mide
+function spammer69($Number_spam, $text_spam, $emoji_left) //in tabe 2 vorodi migire va spam mide
 {
     $number_loop = (int)$Number_spam;
     $print = null;

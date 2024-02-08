@@ -11,6 +11,7 @@ function toggleIcons(e) {
 }
 
 input.addEventListener(`click`, toggleIcons);
+input.addEventListener(`focus`, toggleIcons);
 
 // add selected icon to the input value
 function addIcon(e) {
@@ -21,5 +22,6 @@ function addIcon(e) {
   input.value = e.target.textContent;
 }
 
+iconsContainer.addEventListener(`focus`, addIcon);
 iconsContainer.addEventListener(`click`, addIcon);
 // testing
