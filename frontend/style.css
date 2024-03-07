@@ -2,12 +2,20 @@
 
 body,
 html {
-  background-image: url("./image/background.jpg");
   overflow: hidden;
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: rgb(255, 253, 253);
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px;
+  margin-top: 5px;
 }
 
 .main {
@@ -23,9 +31,11 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: right;
+  width: 400px;
 
-  padding: 20px;
-  background-color: gray;
+  padding: 30px;
+  background-color: rgb(58, 94, 255);
   margin: 15px;
   border-radius: 10px;
   border: 0.2px solid black;
@@ -60,10 +70,18 @@ input {
   height: 30px;
   border-radius: 0.5rem;
   transition: 300ms ease;
+  border: none;
 
   &:focus-visible {
     transform: translateY(-2px);
   }
+}
+label {
+  display: block !important;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
 }
 
 .translate-0 {
@@ -85,11 +103,18 @@ input {
   padding: 10px 15px;
   border-radius: 10px;
   cursor: pointer;
-  font-weight: 500;
-
+  width: 100%;
+  font-weight: bold;
   transition: 300ms ease;
-
+  text-transform: uppercase;
   &:hover {
     transform: translateY(-4px);
+  }
+}
+
+.social-media {
+  text-align: center;
+  > * {
+    color: aqua;
   }
 }

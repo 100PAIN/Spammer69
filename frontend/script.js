@@ -24,4 +24,3 @@ function addIcon(e) {
 
 iconsContainer.addEventListener(`focus`, addIcon);
 iconsContainer.addEventListener(`click`, addIcon);
-// testing
