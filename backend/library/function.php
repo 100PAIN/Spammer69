@@ -22,12 +22,12 @@ function spammer69($Number_spam, $text_spam, $emoji_left) //in tabe 2 vorodi mig
                 $array[] = ($emoji_left == null) ? ("❤️") : ($emoji_left); //emoji
                 $array[] = ($text_spam == null) ? ("I LOVE YOU") : ($text_spam); //text
                 $array[] = emoje('🖤');
-                $array[] = "\n";
+                $array[] = "<br/>";
             } else {
                 $array[] = emoje('🖤');
                 $array[] = ($text_spam == null) ? ("I LOVE YOU") : ($text_spam); //text
                 $array[] = ($emoji_left == null) ? ("❤️") : ($emoji_left); //emoji
-                $array[] = "\n";
+                $array[] = "<br/>";
             }
         }
         foreach ($array as $value) {
